@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href='/'>
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'  }}><Span>Портфолио</Span>
+        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'  }}><Span>Portfolio</Span>
           <DiCssdeck />
         </a>
       </Link>
@@ -17,12 +17,12 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href='#projects'>
-          <NavLink>Проекты</NavLink>
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#tech'>
-          <NavLink>Технологии</NavLink>
+          <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>

@@ -8,12 +8,13 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle>
-        Welcome To <br /> My Personal Portfolio
+        Приветствую Вас<br /> в моем личном <br /> портфолио
       </SectionTitle>
       <SectionText>
-        The purpouse of javascriptmastery Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aliquid?
+        Меня зовут Алексей Смирнов. Это мое профессиональное портфолио. <br />
+        Ознакомиться с моим резюме можно по кнопке ниже.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'} >Learn more</Button>
+      <Button onClick={() => window.location = 'https://google.com'} >Тык</Button>
     </LeftSection>
   </Section>
 );
