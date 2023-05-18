@@ -22,7 +22,7 @@ export const projects = [
     description: "Функциональное приложение-сервис для просмотра видео. Воспользуйтесь поиском или выберите категории в ручную. Адаптивный дизайн для всех устройств. В проекте использованы следующие технологии:",
       image: '/images/3.png',
       tags: ['React', 'Hooks', 'MaterialUI', 'YouTube API'],
-    source: 'https://github.com/smirnovsky/NewTube',
+    source: 'https://new-tube.vercel.app/',
     visit: 'https://github.com/smirnovsky/NewTube',
     id: 2,
   },
