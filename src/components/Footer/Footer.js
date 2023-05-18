@@ -24,13 +24,13 @@ const Footer = () => {
           <Slogan>Aleksei Smirnov 2023</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https//github.com'>
+          <SocialIcons href='https://github.com/smirnovsky'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https//linkedin.com'>
+          <SocialIcons href='https://www.linkedin.com/in/alexey-smirnov-b4793023b/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https//instagram.com'>
+          <SocialIcons href='https://www.instagram.com/smirnovsky/'>
             <AiFillInstagram size='3rem' />
           </SocialIcons>
         </SocialContainer>

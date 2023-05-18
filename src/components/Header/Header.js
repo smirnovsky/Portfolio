@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href='/'>
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'  }}><Span>Portfolio</Span>
+        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'  }}><Span>Hello World!</Span>
           <DiCssdeck />
         </a>
       </Link>
@@ -17,28 +17,28 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href='#projects'>
-          <NavLink>Projects</NavLink>
+          <NavLink>Проекты</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
+          <NavLink>Технологии</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#about'>
-          <NavLink>About</NavLink>
+          <NavLink>Познакомимся?</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https//github.com'>
+      <SocialIcons href='https://github.com/smirnovsky'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https//linkedin.com'>
+      <SocialIcons href='https://www.linkedin.com/in/alexey-smirnov-b4793023b/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https//instagram.com'>
+      <SocialIcons href='https://www.instagram.com/smirnovsky/'>
         <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>

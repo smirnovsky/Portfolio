@@ -42,11 +42,14 @@ const Timeline = () => {
 
   return (
     <Section id='about'> 
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Познакомимся?</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur perspiciatis itaque voluptas ea ad adipisci aut ab harum dolores.
+        Привет! Меня зовут Алексей Смирнов. Я только начинаю свой путь в IT. С первых дней, как у меня появился компьютер он стал моим хобби. Первые самы простенькие попытки программировать я начинал еще в школе. В университете информатика стала моим любимым предметом, хоть мой профиль совсем никак не связан с IT. Во времена ковида, в связи с карантином, у меня появилось много свободного времени, и тогда я предпринял свою первую попытку перехода в IT. <br /> Я закончил курс React-разработчик от HTML-Academy.
+        Не могу сказать, что мне это сильно помогло, так как курс был очень сжат по срокам, а объем информации огромен. <br /> В Дальнейшем проходил все с начала. Повторяя все раз за разом информация начала откладываться в голове и систематизироваться. <br /> Для самостоятельного обучения я подключил курсы на Udemy. Занимался по курсам Владилена Минина, Антона Ларичева, Вадима Макеева.
+        В данный момент переключился на уроки заграничных frontend-разработчиков: Adrian Hajdin, JSMastery, Anna Kubov и др. <br />
+        Постоянно совершенствую свои навыки, в настоящее время обучаюсь в школе RSSchool от EPAM.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
@@ -96,8 +99,8 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer>
-      <CarouselButtons>
+      </CarouselContainer> */}
+      {/* <CarouselButtons>
         {TimeLineData.map((item, index) => (
           <CarouselButton 
             key={index}
@@ -109,7 +112,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButtons>
+      </CarouselButtons> */}
       <SectionDivider />
     </Section>
   );
