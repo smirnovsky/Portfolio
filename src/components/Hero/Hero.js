@@ -12,9 +12,9 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         Меня зовут Алексей Смирнов. Это мое профессиональное портфолио. <br />
-        Ознакомиться с моим резюме можно по кнопке ниже.
+        Ознакомиться с моим резюме, а также скачать его для печати можно по кнопке ниже.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'} >Тык</Button>
+      <Button onClick={() => window.location = 'https://aleksei-smirnov-cv.vercel.app/'} >Тык</Button>
     </LeftSection>
   </Section>
 );
